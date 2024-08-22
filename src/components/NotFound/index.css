@@ -1,0 +1,27 @@
+.nf-bg-cont {
+    background-color: black;
+    min-height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .nf-img-style {
+    height: 35vh;
+  }
+  .nf-h-style {
+    font-style: 'Roboto';
+    color: #ffffff;
+  }
+  .nf-p-style {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 12px;
+  }
+  @media screen and (min-width: 768px) {
+    .nf-img-style {
+      height: 60vh;
+    }
+  }

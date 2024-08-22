@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Job Search Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Job Search Application is a job listing portal where users can search for jobs, view job details, and filter jobs based on different criteria. The application uses React.js for the frontend and provides user authentication, protected routes, and API integration.
+
+## Features
+
+- **User Authentication:** Login system with JWT-based authentication.
+- **Protected Routes:** Ensures certain routes are accessible only after user login.
+- **Job Listings:** Displays job listings with company logos, job titles, locations, and ratings.
+- **Job Details:** Detailed view of each job, including description, skills required, and similar jobs.
+- **Search and Filters:** Filter jobs by employment type and salary range, and search for specific job roles.
+- **Responsive Design:** Optimized for both desktop and mobile views.
+
+## API Integration
+The application interacts with a jobs API to fetch job listings and job details. Ensure that the backend API is running and accessible.
+
+API Endpoint: https://apis.ccbp.in/jobs
+Authentication: The application uses JWT tokens for authentication. Ensure that a valid token is stored in the cookies for authorized API requests.
+
+
+## Components
+App.js: Main component that handles routing using react-router-dom.
+Login.js: Component for user login functionality.
+Home.js: Component that displays the homepage with a link to find jobs.
+Jobs.js: Component that handles job listings with search and filter functionalities.
+JobItemDetailsRoute.js: Component for displaying job details, including similar jobs.
+ProtectedRoute.js: Component that restricts access to certain routes based on user authentication.
+Header.js: Component that displays the navigation bar and handles user logout.
 
 ## Available Scripts
-
 In the project directory, you can run:
 
-### `npm start`
+npm start: Runs the app in development mode.
+npm test: Launches the test runner.
+npm run build: Builds the app for production.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+React.js: Frontend framework for building the user interface.
+React Router: For handling navigation and protected routes.
+React Icons: For using icons in the UI.
+JS-Cookie: For managing JWT tokens in cookies.
+ThreeDots Loader: For displaying a loading spinner during API calls. 
 
-### `npm test`
+## How to Use
+Login: Enter valid credentials to access the job listings.
+Find Jobs: Use the search bar and filters to find jobs that match your criteria.
+View Job Details: Click on a job listing to view detailed information, including similar jobs.
+Logout: Click the logout button in the header to sign out.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Enhancements
+Pagination: Add pagination to job listings for better user experience.
+User Registration: Implement user registration functionality.
+Job Application: Allow users to apply directly to jobs from within the app.
+Profile Management: Enable users to update their profile information.
+License

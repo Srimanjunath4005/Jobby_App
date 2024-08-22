@@ -1,0 +1,36 @@
+.eands-cont {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background-size: cover;
+    margin-top: 15px;
+  }
+  .types-heading {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .types-list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .each-type {
+    display: flex;
+    margin-top: 10px;
+  }
+  .type {
+    font-style: 'Roboto';
+    color: #ffffff;
+  }
+  .style-circle {
+    border-radius: 50%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .eands-cont {
+      width: 30vw;
+      padding: 10px;
+    }
+  }
+  

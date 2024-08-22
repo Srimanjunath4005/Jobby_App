@@ -1,0 +1,222 @@
+.pj-each-job-cont {
+    background-color: #272727;
+    min-height: 80vh;
+    width: 90vw;
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .pj-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .pj-similarJobs-cont {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .pj-link-s {
+    text-decoration: none;
+  }
+  .pj-t-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .pj-logo-s {
+    height: 35px;
+  }
+  .pj-t-in-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .pj-title-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .pj-rate-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .pj-star-s {
+    color: #fbbf24;
+    font-size: 10px;
+  }
+  .pj-rate-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 10px;
+  }
+  
+  .pj-m-l-cont {
+    display: flex;
+  }
+  .pj-mid-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .pj-loc-cont {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .pj-l-i-s {
+    color: #ffffff;
+    margin-right: 5px;
+  }
+  .pj-l-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 12px;
+  }
+  .pj-pac-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .pj-hrj-s {
+    border: 1px solid #64748b;
+  }
+  .pj-des-h-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .pj-des-p-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+  }
+  .pj-desandlink-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pj-a-s {
+    font-style: 'Roboto';
+    color: #6366f1;
+    text-decoration: none;
+  }
+  .pj-a-i-s {
+    color: #6366f1;
+  }
+  .pj-skills-ul-cont {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85vw;
+  }
+  .pj-s-li-cont {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  .pj-li-i-s {
+    height: 50px;
+  }
+  .pj-li-p-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .pj-life-cont {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+  }
+  .pj-life-i-s {
+    margin-top: 10px;
+  }
+  .pj-smj-h-s {
+    font-style: 'Roboto';
+    color: #ffffff;
+  }
+  .pj-sm-ul-cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .pj-sm-li-cont {
+    background-color: #272727;
+    min-height: 40vh;
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .pj-each-job-cont {
+      width: 90vw;
+      min-height: 80vh;
+    }
+    .pj-sm-li-cont {
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 25vw;
+    }
+    .pj-sm-ul-cont {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .pj-life-i-s {
+      margin-top: 0px;
+      margin-left: 10px;
+    }
+    .pj-life-cont {
+      flex-direction: row;
+    }
+    .pj-logo-s {
+      height: 45px;
+    }
+    .pj-des-p-s {
+      font-size: 20px;
+    }
+    .pj-des-h-s {
+      font-size: 25px;
+    }
+  
+    .pj-title-s {
+      font-size: 15px;
+    }
+    .pj-star-s {
+      font-size: 15px;
+    }
+    .pj-rate-s {
+      font-size: 15px;
+    }
+    .pj-l-i-s {
+      font-size: 15px;
+    }
+    .pj-l-s {
+      font-size: 15px;
+    }
+    .pj-pac-s {
+      font-size: 18px;
+    }
+  }
+  
