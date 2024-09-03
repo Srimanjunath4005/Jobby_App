@@ -6,7 +6,7 @@ import {Component} from 'react'
 
 
 class Login extends Component {
-  state = {username: '', password: '', showErrorMsg: false, errorMsg: ''}
+  state = {username: 'rahul', password: 'rahul@2021', showErrorMsg: false, errorMsg: ''}
 
   onchangeusername = event => {
     this.setState({username: event.target.value})
